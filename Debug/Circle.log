@@ -1,0 +1,3 @@
+﻿  VytlaEashan_CircleTest.cpp
+C:\Data\CP3\CircleProj\Circle\Circle\VytlaEashan_Circle.h(13,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Circle.vcxproj -> C:\Data\CP3\CircleProj\Circle\Debug\Circle.exe
