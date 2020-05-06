@@ -40,21 +40,22 @@ Rectangle::Rectangle(const Rectangle& Object) {
 	width = Object.width;
 }
 
-//Method to set the radius of the circle
+//Method to set the length of the rectangle
 void Rectangle::SetLength(float UserLength) {
 	length = UserLength;
 }
 
+//Method to set the width of the rectangle
 void Rectangle::SetWidth(float UserWidth) {
 	width = UserWidth;
 }
 
-//Method to find the area of the circle
+//Method to find the area of the rectangle
 double Rectangle::Area() {
 	return length * width;
 }
 
-//Project 12-3: Method to find circumfrence
+//Project 12-3: Method to find perimeter of the rectangle
 double Rectangle::Perimeter() {
 	return 2 * (length + width);
 }

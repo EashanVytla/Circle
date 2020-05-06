@@ -48,7 +48,7 @@ double circle::Area() {
 	return (PI * radius * radius);
 }
 
-//Project 12-3: Method to find circumfrence
+//Project 12-3: Method to find circumfrence of the circle
 double circle::circumfrence() {
 	return (PI * (2 * radius));
 }
